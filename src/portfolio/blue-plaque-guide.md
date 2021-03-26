@@ -3,7 +3,7 @@ title: 'Pontefract Blue Plaque Guide - Reconnecting Pontefract with its local hi
 date: '2019-07-22'
 layout: 'layouts/post.html'
 
-featuredImage: '/images/portfolio/blue-plaque-guide-map.png'
+featuredImage: '/images/portfolio/PCS/blue-plaque-guide-map.png'
 socialImage: 'https://jaydnedwards.com/images/portfolio/PCS/blue-plaque-guide-map.png'
 
 tags: ['Design', 'Print']
