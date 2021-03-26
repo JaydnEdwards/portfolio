@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="page__wrapper">
+    <article class="blog__feed">
+        {{ content | safe }}
+        {% for post in collections.blog %}
+            <figure class="blogFeedItem">
+                <a href="{{ post.url }}"><img src="{{ post.data.featuredImage }}" class="feedThumbnail" alt="" /></a>
+            
+                <figcaption>
+                    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                    <time datetime="{{ post.date | w3DateFilter }}">{{ post.date | dateFilter }}</time>
+                    <p>{{ post.data.excerpt }}</p>
+                    <!-- {% if post.data.tags  %}
+                    <p class="feedTags">Tags: <a href="/archive/{{ tag | url }}">{{ post.data.tags }}</a></p>
+                    {% endif %} -->
+                </figcaption>
+            </figure>
+        {% endfor %}
+    </article>
+</div><!-- Wrapper -->
+{% endblock %}

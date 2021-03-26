@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %} 
+
+{% block content %}
+<div class="page__wrapper">
+  <article>
+    {{ content | safe }}
+  </article>
+</div><!-- Wrapper -->
+
+  <section class="[ feeds ] [ wave ]">
+    <div class="feeds__wrapper">
+      {% include "partials/home-feeds.html" %}
+    </div>
+  </section>
+
+
+{% endblock %}

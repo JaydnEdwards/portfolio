@@ -1,0 +1,32 @@
+    <div class="blogFeed">
+        <h2>I write <span class="[ emoji ]" aria-hidden="true">✏️</span></h2>
+        {% for post in collections.blog %}
+            {% if loop.index0 < 1 %}
+                <figure class="blogFeedItem">
+                    <a href="{{ post.url }}"><img src="{{ post.data.featuredImage }}" class="feedThumbnail" alt=""/></a>
+
+                    <figcaption>
+                        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                        <!--<p>{{ post.data.excerpt }}</p>-->
+                    </figcaption>
+                </figure>
+            {% endif %}
+        {% endfor %}
+    </div>
+        
+
+    <div class="portfolioFeed">
+        <h2>I create <span class="[ emoji ]" aria-hidden="true">🎨</span></h2>
+        {% for post in collections.portfolio %}
+            {% if loop.index0 < 1 %}
+                <figure class="portfolioFeedItem">
+                    <a href="{{ post.url }}"><img src="{{ post.data.featuredImage }}" class="feedThumbnail" alt=""/></a>
+
+                    <figcaption>
+                        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                    </figcaption>
+                    
+                </figure>
+            {% endif %}
+        {% endfor %}
+    </div>

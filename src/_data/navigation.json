@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "emoji": "🏡",
+      "url": "/"
+    },
+    {
+      "text": "Portfolio",
+      "emoji": "🎨",
+      "url": "/portfolio/"
+    },
+    {
+      "text": "Blog",
+      "emoji": "📝",
+      "url": "/blog/"
+    },
+    {
+      "text": "Now",
+      "emoji": "🔮",
+      "url": "/now"
+    },
+    {
+      "text": "CV",
+      "emoji": "📄",
+      "url": "/cv"
+    },
+    {
+      "text": "Twitter",
+      "emoji": "🦆",
+      "url": "https://twitter.com/Jaydn_Edwards"
+    }
+  ]
+}
