@@ -71,6 +71,14 @@ p{
     font-weight: 400;
 }
 
+em{
+    color: var(--primary);
+}
+
+strong{
+    color: var(--secondary);
+}
+
 .highlight,
 .highlight *{
     color: var(--colourtext);
