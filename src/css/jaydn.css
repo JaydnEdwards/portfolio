@@ -424,6 +424,21 @@ figcaption a{
     object-fit: cover;
 }
 
+.video{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+.video iframe{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
 .post{
     max-width: 65ch;
     margin: 0 auto;
