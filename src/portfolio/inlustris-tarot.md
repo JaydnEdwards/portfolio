@@ -63,7 +63,7 @@ Once I had a design in mind, I needed to look at how I was going to build this s
 
 It's naturally fast and performant too, since the output is plain files. It also means I can build page content in Markdown, making it quicker and easier to write up a page.
 
-It's also hosted in Netlify & Github. I upload entire directory of Inlustris to GutHUb, and Netlify triggers the build in Eleventy and deploys it.
+It's also hosted in Netlify & Github. I upload entire directory of Inlustris to GitHub, and Netlify triggers the build in Eleventy and deploys it.
 
 Take a look at [the Inlustris Tarot website](https://inlustristarot.com).
 
