@@ -17,7 +17,7 @@ This is a list of all the things I’ve got going on at the moment, from hobbies
 
 * <span class="[ emoji ] [ bullet ]" aria-hidden="true">📚</span> Dabbling in Babylonian from time to time.
 
-* <span class="[ emoji ] [ bullet ]" aria-hidden="true">🔮</span> Designing my own Tarot deck! I've finished the Major Arcana. I post weekly <a href="https://linktr.ee/inlustristarot">@inlustristarot</a>.
+* <span class="[ emoji ] [ bullet ]" aria-hidden="true">🔮</span> Designing my own Tarot deck! I've finished the *Major Arcana*. I post weekly <a href="https://linktr.ee/inlustristarot">@inlustristarot</a>.
 
 * <span class="[ emoji ] [ bullet ]" aria-hidden="true">🏘</span> Volunteering with the Pontefract Civic Society as a Print Designer.
 

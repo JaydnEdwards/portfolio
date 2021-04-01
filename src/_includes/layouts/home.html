@@ -1,17 +1,23 @@
 {% extends "layouts/base.html" %} 
 
 {% block content %}
-<div class="page__wrapper">
-  <article>
-    {{ content | safe }}
-  </article>
-</div><!-- Wrapper -->
+<article class="home-wrapper">
+  <picture class="avatar">
+    <source srcset="/images/avatar-750.webp">
+      <img src="/images/avatar-750.png" alt="Avatar of me">
+  </picture>
 
-  <section class="[ feeds ] [ wave ]">
-    <div class="feeds__wrapper">
-      {% include "partials/home-feeds.html" %}
-    </div>
-  </section>
+  <h2 class="headline">{{ headline }}<span class="[ emoji ]" aria-hidden="true">{{ headlineEmoji }}</span></h2>
+  <p class="subheading">{{ subheading }}</p>
+
+  {{ content | safe }}
+</article>
+
+<section class="feeds">
+  <div class="feeds__wrapper">
+    {% include 'partials/home-feeds.html' %}
+  </div>
+</section>
 
 
 {% endblock %}
