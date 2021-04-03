@@ -1,0 +1,24 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="page__wrapper">
+    <article class="scrapbook">
+        <h2>{{ title }}</h2>
+        {{ content | safe }}
+        <div class="scrapbook-wrapper">
+            {% image "./src/images/scrapbook/Norvrandt.svg", "A serif N with crystal creeping up one side.", "100%" %}
+            {% image "./src/images/scrapbook/Forest.png", "A forest with a border. It fades to white at the top and has an inverted ball in the centre.", "100%" %}
+            {% image "./src/images/scrapbook/JAQKCellars.tif", "A wine label for a drink called Midnight.", "100%" %}
+            {% image "./src/images/scrapbook/Roses&Roses.png", "A cover for a fake magazine called Roses and Roses.", "100%" %}
+            {% image "./src/images/scrapbook/spiral.png", "Vector art planets spiral around the Sun.", "100%" %}
+            {% image "./src/images/scrapbook/solarSystem.png", "Vector art planets arranged around the Sun.", "100%" %}
+            {% image "./src/images/scrapbook/Crystals.svg", "Three crystals, made of red, pink, purple and blue.", "100%" %}
+            {% image "./src/images/scrapbook/Laputa.png", "A recreation of the crystal necklace from Laputa: Castle in the Sky.", "100%" %}
+            {% image "./src/images/scrapbook/Leten.jpeg", "A planet made from rock textures.", "100%" %}
+            {% image "./src/images/scrapbook/MagnaLux.png", "A planet made from rock textures.", "100%" %}
+            {% image "./src/images/scrapbook/Lancaster.png", "A planet made from rock textures.", "100%" %}
+            {% image "./src/images/scrapbook/Eternity.png", "Large fiery wings come out from behind a blue clock. Fire and effects explode around it. It is captioned 'Delve into Eternity'.", "100%" %}
+        </div>
+    </article>
+</div><!-- Wrapper -->
+{% endblock %}

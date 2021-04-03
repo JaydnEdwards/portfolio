@@ -1,3 +1,24 @@
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, sizes) {
+  let metadata = await Image(src, {
+    widths: [300, 500],
+    formats: ["avif", "webp", "jpeg", "svg"]
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes, {
+    whitespaceMode: "inline"
+  });
+}
+
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 // Filters
@@ -13,7 +34,7 @@ module.exports = config => {
 
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/images/');
-
+  config.addPassthroughCopy('./img/');
   config.addPassthroughCopy('./src/css');
 
   // Plugins
@@ -38,6 +59,11 @@ module.exports = config => {
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
+
+  //11ty image 
+  config.addNunjucksAsyncShortcode("image", imageShortcode);
+  config.addLiquidShortcode("image", imageShortcode);
+  config.addJavaScriptFunction("image", imageShortcode);
 
   return {
     markdownTemplateEngine: 'njk',
