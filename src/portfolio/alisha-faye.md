@@ -1,5 +1,5 @@
 ---
-title: 'Alisha Faye'
+title: 'Giving an artist a platform with Alisha Faye'
 date: '2019-09-28'
 layout: 'layouts/post.html'
 

@@ -1,5 +1,5 @@
 ---
-title: 'Ffenix Stables Logo'
+title: 'Gving horses a new life with the reborn Ffenix Stables logo'
 date: '2020-06-10'
 layout: 'layouts/post.html'
 

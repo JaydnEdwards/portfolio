@@ -303,6 +303,7 @@ article p{
 article img{
     width: 100%;
     min-width: 250px;
+    height: auto;
 }
 
 .feeds h2{
