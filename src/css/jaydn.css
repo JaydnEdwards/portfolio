@@ -92,12 +92,14 @@ strong{
 
 main a{
     color: var(--primary);
-    background: linear-gradient(to right, var(--primary), var(--secondary));
+    background: linear-gradient(var(--primary), var(--secondary));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
 
     text-decoration: none;
+
+    display: inline-block;
 }
 
 main a:hover{
