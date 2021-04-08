@@ -292,7 +292,8 @@ main{
     margin-top: 0;
 }
 
-.page__wrapper{
+.page__wrapper,
+.home-wrapper{
     padding: 0 20px 2rem 20px;
 }
 
