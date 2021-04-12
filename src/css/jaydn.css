@@ -438,6 +438,10 @@ figcaption a{
     object-fit: cover;
 }
 
+.portfolioFeedItem a{
+    display: block;
+}
+
 .blog__feed figcaption a{
     font-size: 1em;
 }
