@@ -13,7 +13,12 @@
                     <time datetime="{{ post.date | w3DateFilter }}">{{ post.date | dateFilter }}</time>
                     <p>{{ post.data.excerpt }}</p>
                     <!-- {% if post.data.tags  %}
-                    <p class="feedTags">Tags: <a href="/archive/{{ tag | url }}">{{ post.data.tags }}</a></p>
+                        <ul class="feedTagsWrapper">
+                        <p class="feedTags">Tags:</p> 
+                        {% for item in post.data.tags %}
+                        <li><a href="/archive/{{ tag | url }}">{{ item }}</a>,</li>
+                        {% endfor %}
+                        </ul>
                     {% endif %} -->
                 </figcaption>
             </figure>
