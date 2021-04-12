@@ -21,4 +21,4 @@ In my spare time, *I also make tarot cards*, over at [Inlustris Tarot](https://i
 
 ## I'm looking for work!
 
-I'm over halfway though my two year contract and am now looking for work. If you think I would fit in with your team, please [get in touch](mailto:jaydn@hey.com). Alternatively, you can reach me on [Twitter](https://twitter.com/Jaydn_Edwards) or [LinkedIn](https://www.linkedin.com/in/jaydnedwards/).
+I'm over halfway through my two year contract and am now looking for work. If you think I would fit in with your team, please [get in touch](mailto:jaydn@hey.com). Alternatively, you can reach me on [Twitter](https://twitter.com/Jaydn_Edwards) or [LinkedIn](https://www.linkedin.com/in/jaydnedwards/).
