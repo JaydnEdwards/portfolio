@@ -438,7 +438,8 @@ figcaption a{
     object-fit: cover;
 }
 
-.portfolioFeedItem a{
+.portfolioFeedItem a,
+.blogFeedItem a{
     display: block;
 }
 
