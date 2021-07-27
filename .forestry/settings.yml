@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Pages
+- type: document
+  path: src/index.md
+  label: Home
+  match: "**/*"
+- type: heading
+  label: Directories
 - type: directory
   path: src/blog
   label: Blog
@@ -18,11 +26,6 @@ sections:
   match: "**/*"
   templates:
   - portfolio
-- type: directory
-  path: src/scrapbook
-  label: Scrapbook
-  create: all
-  match: "**/*"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
