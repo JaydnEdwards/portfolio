@@ -47,3 +47,5 @@ fields:
     schema:
       format: markdown
   label: Excerpt
+pages:
+- blog/testing-forestry.io.md
