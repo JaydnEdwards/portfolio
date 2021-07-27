@@ -12,12 +12,12 @@ sections:
   templates:
   - blog
 - type: directory
-  path: portfolio
+  path: src/portfolio
   label: Portfolio
-  create: documents
+  create: all
   match: "**/*"
 - type: directory
-  path: scrapbook
+  path: src/scrapbook
   label: Scrapbook
   create: all
   match: "**/*"
