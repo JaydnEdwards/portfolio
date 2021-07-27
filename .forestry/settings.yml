@@ -9,7 +9,6 @@ sections:
 - type: document
   path: src/index.md
   label: Home
-  match: "**/*"
 - type: heading
   label: Directories
 - type: directory
