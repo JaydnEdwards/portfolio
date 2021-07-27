@@ -1,0 +1,25 @@
+---
+label: Portfolio
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: featuredImage
+  label: featuredImage
+- type: file
+  name: socialImage
+  label: socialImage
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: list
+  name: tags
+  label: tags
