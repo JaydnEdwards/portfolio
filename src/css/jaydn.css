@@ -140,10 +140,16 @@ main a:hover{
 }
 
 .border-5,
-blockquote{
+blockquote,
+.info{
     border: 5px solid var(--primary);
     border-radius: 5px;
     padding: 0.5em;
+}
+
+.info{
+    box-shadow: var(--secondary) 0.5rem 0.5rem 1px;
+    margin-top: 3rem;
 }
 
 body{
@@ -431,6 +437,19 @@ figcaption a{
 }
 .blog__feed > p{
     margin-bottom: 1.5rem;
+}
+
+.portfolioFeedItem{
+    box-shadow: var(--secondary) 0.5rem 0.5rem 1px;
+}
+
+.blogFeedItem{
+    box-shadow: var(--tertiary) 0.5rem 0.5rem 1px;
+}
+
+.feeds__wrapper .portfolioFeedItem,
+.feeds__wrapper .blogFeedItem{
+    box-shadow: none;
 }
 
 .portfolioFeedItem img{

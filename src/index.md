@@ -19,6 +19,10 @@ I volunteer for the [Pontefract Civic Society](https://www.pontefractcivicsociet
 
 In my spare time, *I also make tarot cards*, over at [Inlustris Tarot](https://inlustristarot.com). I'm aiming to modernise tarot in a way that people can easily interpret and relate to the meanings of the cards.
 
+<div class="info [ border-5 ]">
+
 ## I'm looking for work!
 
 I'm over halfway through my two year contract and am now looking for work. If you think I would fit in with your team, please [get in touch](mailto:jaydn@hey.com). Alternatively, you can reach me on [Twitter](https://twitter.com/Jaydn_Edwards) or [LinkedIn](https://www.linkedin.com/in/jaydnedwards/).
+
+</div>
