@@ -7,6 +7,7 @@ featuredImage: '/images/portfolio/irkallu/home.png'
 socialImage: 'https://jaydnedwards.com/images/portfolio/irkallu/home.png'
 
 tags: ['Design', '11ty']
+category: 'web'
 ---
 
 Irkallu is a gaming guild centred around the game [Ashes of Creation](https://ashesofcreation.com), and aims to be a safe, supportive community for casual players who don't dedicate their life to one game. 

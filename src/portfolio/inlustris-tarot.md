@@ -7,6 +7,7 @@ featuredImage: '/images/portfolio/inlustris/prototype.jpg'
 socialImage: 'https://jaydnedwards.com/images/portfolio/inlustris/prototype.jpg'
 
 tags: ['Design', '11ty', Print]
+category: 'design'
 ---
 
 Tarot is something I like to practice in my free time. I find it to be a fun exercise that does predict some truths. It's also something that helps provide comfort for people, which is a big reason I like it.

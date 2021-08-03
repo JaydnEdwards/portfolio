@@ -6,7 +6,7 @@
         {{ content | safe }}
         <div class="[ grid-2 ]">
         {% for post in collections.portfolio %}
-            <figure class="[ portfolioFeedItem ] [ border-5 ]">
+            <figure class="[ portfolioFeedItem ] [ border-5 ]" data-portfolio-category="{{ post.data.category }}">
                 <a href="{{ post.url }}"><img src="{{ post.data.featuredImage }}" class="feedThumbnail" alt="" /></a>
             
                 <figcaption>

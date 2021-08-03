@@ -7,6 +7,7 @@ featuredImage: '/images/portfolio/PCS/blue-plaque-guide-map.png'
 socialImage: 'https://jaydnedwards.com/images/portfolio/PCS/blue-plaque-guide-map.png'
 
 tags: ['Design', 'Print']
+category: 'print'
 ---
 
 The Pontefract Civic Society (PCS) is a registered charity that promotes and supports the well-being of Pontefract. They defend the town’s rich, long history and are influential in improving the quality of the town. Check them out at [their website](https://www.pontefractcivicsociety.org.uk/about-us/).

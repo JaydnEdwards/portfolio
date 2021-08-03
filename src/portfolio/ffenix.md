@@ -1,11 +1,12 @@
 ---
-title: 'Gving horses a new life with the reborn Ffenix Stables logo'
+title: 'Giving horses a new life with the reborn Ffenix Stables logo'
 date: '2020-06-10'
 layout: 'layouts/post.html'
 
 featuredImage: '/images/portfolio/ffenix/logo.svg'
 socialImage: 'https://jaydnedwards.com/images/portfolio/ffenix/logo.svg'
 
+category: 'branding'
 tags: ['Logo', 'Design']
 ---
 

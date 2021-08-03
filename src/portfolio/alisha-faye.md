@@ -7,6 +7,7 @@ featuredImage: '/images/portfolio/alisha-faye/site.jpg'
 socialImage: 'https://jaydnedwards.com/images/portfolio/alisha-faye/site.jpg'
 
 tags: ['Design', 'WordPress', 'Branding', 'Portfolio' ]
+category: 'web'
 ---
 
 Alisha Faye is a very close and dear friend of mine; we went through our GCSE’s together. So, when I had an Agency module at university, she was the first in line for a custom portfolio.
