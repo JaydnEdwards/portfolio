@@ -28,3 +28,18 @@ fields:
   label: tags
   config:
     use_select: false
+- name: category
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - web
+    - print
+    - branding
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
