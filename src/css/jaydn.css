@@ -150,12 +150,17 @@ blockquote,
 .info{
     border: 5px solid var(--primary);
     border-radius: 5px;
-    padding: 0.5em;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .info{
     box-shadow: var(--secondary) 0.5rem 0.5rem 1px;
     margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.info h2{
+    margin-top: 0;
 }
 
 body{
