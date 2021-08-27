@@ -6,7 +6,7 @@ layout: layouts/now.html
 socialImage: https://jaydnedwards.com/images/social.jpg
 
 ---
-## What am I up to at the moment? <span class="\[ emoji \]" aria-hidden="true">🔮</span>
+# What am I up to at the moment? <span class="\[ emoji \]" aria-hidden="true">🔮</span>
 
 This is a list of all the things I’ve got going on at the moment, from hobbies to work and everything in between.
 

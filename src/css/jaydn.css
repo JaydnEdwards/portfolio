@@ -26,7 +26,7 @@
     color: var(--colourtext);
 }
 
-h2::selection, h3::selection{
+h1::selection, h2::selection, h3::selection{
     background-color: var(--bodytext);
     color: var(--colourtext);
     -webkit-text-fill-color: initial;
@@ -54,11 +54,13 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid;  /* creates padding around scroll thumb */
 }
 
+h1,
 h2{
     font-weight: 700;
     font-size: 1.55rem;
 }
 
+h1,
 h2,
 h3{
     color: var(--primary);

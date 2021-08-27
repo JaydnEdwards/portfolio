@@ -11,6 +11,6 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
 
-## This is my blog <span class="[ emoji ]" aria-hidden="true">📝</span>
+# This is my blog <span class="[ emoji ]" aria-hidden="true">📝</span>
 
 I'll be posting my writing here, but there's no set theme. You're probably going to see a mix of design and development talk, with hints of my life sprinkled in.
