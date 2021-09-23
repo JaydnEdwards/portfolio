@@ -2,7 +2,7 @@
 date: 2021-09-23
 layout: layouts/post.html
 title: Attending my first orchestra
-featuredImage: ''
+featuredImage: "/images/d9556542-3b9c-4a1a-aa2f-12c2b92fdb41-2.jpg"
 excerpt: I recently visited London to attend the Final Fantasy 7 Remake Orchestra
   with my partner. It was an amazing experience - let me tell you about it.
 
