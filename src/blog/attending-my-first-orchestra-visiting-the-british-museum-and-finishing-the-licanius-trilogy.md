@@ -36,6 +36,13 @@ There were also lots of people carrying transparent bags with merch in, but we d
 
 Anyway! The orchestra itself was amazing. It opened with the **Prelude**. It started off just with the usual string plucks before every instrument got involved. I didn't know the Prelude could be so powerful! The performance overall was phenomenal. The live music is just something else and I find it hard to describe.
 
+<figure>
+  <img srcset="/images/d9556542-3b9c-4a1a-aa2f-12c2b92fdb41-2.jpg" alt="">
+  <figcaption>
+    The Royal Albert Hall full with people awaiting the start of the orchestra.
+  </figcaption>
+</figure>
+
 We got some Yuffie music near the middle of the performance, and towards the end we got to hear **Hollow** sung by a London singer who was truly _amazing_. We also got One Winged Angel, which was special. Throughout the orchestra, the stage as lit blue. When One Winged Angel started playing, there were fiery scenes played on the screen and the lights turned from blue to bright orange in an instant. I was hanging on the edge of my seat.
 
 If you _ever_ think you want to go see some Final Fantasy music live, then _do it_. It is _so_ worth it.
