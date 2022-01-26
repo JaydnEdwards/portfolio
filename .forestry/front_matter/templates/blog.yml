@@ -47,5 +47,3 @@ fields:
     schema:
       format: markdown
   label: Excerpt
-pages:
-- src/blog/attending-my-first-orchestra-visiting-the-british-museum-and-finishing-the-licanius-trilogy.md
