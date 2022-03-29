@@ -12,15 +12,8 @@ avatar-webp: "/images/avatar-750.webp"
 avatar: "/images/avatar-750.png"
 
 ---
-<div class="info \[ border-5 \]">
 
-## I'm looking for work!
-
-I'm working on a six-month contract and am now looking for work. If you think I would fit in with your team, please [get in touch](mailto:jaydnedwards@outlook.com). Alternatively, you can reach me on [Twitter](https://twitter.com/Jaydn_Edwards) or [LinkedIn](https://www.linkedin.com/in/jaydnedwards/).
-
-</div>
-
-I’m a _designer who codes_, currently working as a Content Co-ordinator at [Lancaster University](https://www.lancaster.ac.uk/). I’m helping to build an all-new student search experience!
+I’m a _web developer_, currently working at [Lancaster University](https://www.lancaster.ac.uk/). I work on creating Content Types for TerminalFour CMS.
 
 I have experience creating websites using _accessible & performant_ HTML/CSS (and SCSS!) and using _the JAMstack_ to create blogs made of static pages, as well as design for a range of mediums and contexts.
 
