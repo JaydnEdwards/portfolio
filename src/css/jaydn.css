@@ -398,7 +398,7 @@ figcaption a{
 }
 
 .feeds > div > div{
-    background: rgba( 255, 255, 255, 0.25 );
+    background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 6px );
     -webkit-backdrop-filter: blur( 6px );
@@ -412,19 +412,6 @@ figcaption a{
 .portfolioFeedItem img{
     background-color: #fff;
 }
-
-/* .wave::before{
-    content: '';
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: var(--waveHeight);
-    margin-top: var(--waveHeightInverse);
-    background-image: url('/images/wave.svg');
-    background-size: cover;
-    mix-blend-mode: overlay;
-} */
 
 .now{
     display: grid;
@@ -673,7 +660,7 @@ figcaption a{
 
         justify-content: center;
 
-        max-width: 75vw;
+        max-width: 90vw;
     }
 
     .feeds img{
