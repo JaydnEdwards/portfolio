@@ -1,0 +1,55 @@
+* {
+    font-size: 24px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 1.55rem;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+p {
+    font-weight: 400;
+}
+
+.display{
+    color: var(--primary);
+    background: linear-gradient(250deg, var(--primary) 0%, var(--secondary) 50%, var(--tertiary) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    margin-bottom: 0em;
+}
+
+main a{
+    color: var(--secondary);
+    display: inline-block;
+}
+
+main a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 3px;
+    text-decoration-skip-ink: none;
+    text-decoration-color: var(--secondary);
+}
+
+.emoji{
+    font-size: inherit;
+    -webkit-text-fill-color: initial;
+}
+
+.headline{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.subheading{
+    font-size: 1.5rem;
+    margin-top: 0;
+}

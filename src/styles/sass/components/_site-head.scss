@@ -1,0 +1,30 @@
+.site-head{
+    background-image: url('/images/headerbg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
+    margin-bottom: 2rem;
+
+    &__hero {
+        height: 33vh;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+
+        a {
+            width: 75vw;
+        }
+
+        svg {
+            width: 75vw;
+        }
+
+        @media screen and (min-width: 850px) {
+            a,
+            svg {
+                width: 50vw;
+            }
+        }
+    }
+}

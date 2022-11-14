@@ -1,10 +1,11 @@
 {
-  "name": "eleventy-from-scratch",
+  "name": "jaydn-edwards-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve",
+    "watch:sass": "npx sass src/styles/sass:dist/css --watch",
+    "start": "npx eleventy --serve & npm run watch:sass",
     "production": " NODE_ENV=production eleventy"
   },
   "repository": {
@@ -24,6 +25,6 @@
     "@11ty/eleventy-img": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "moment": "^2.26.0",
-    "sass": "^1.26.8"
+    "sass": "^1.56.1"
   }
 }

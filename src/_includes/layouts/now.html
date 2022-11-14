@@ -1,8 +1,14 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<div class="page__wrapper">
+<section class="section-wrapper">
     <article class="now">
+        <h2 class="headline display">
+            {{ heading }}
+            {% if headingEmoji %}
+                <span class="emoji">{{ headingEmoji }}</span>
+            {% endif %}
+        </h2>
         {{ content | safe }}
     </article>
 </div><!-- Wrapper -->

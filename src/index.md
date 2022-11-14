@@ -6,7 +6,7 @@ metaDesc: I’m a designer who codes, currently working as a Digital Skills Grad
 layout: layouts/home.html
 socialImage: https://jaydnedwards.com/images/social.jpg
 headline: Hi, I'm Jaydn.
-headlineEmoji: ''
+headlineEmoji: 👋🏻
 subheading: I make accessible & performant JAMstack websites.
 avatar-webp: "/images/avatar-750.webp"
 avatar: "/images/avatar-750.png"

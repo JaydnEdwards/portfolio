@@ -1,5 +1,7 @@
 ---
 title: 'Blog'
+heading: "Here's my blog!"
+headingEmoji: 📝
 layout: 'layouts/blog.html'
 socialImage: "https://jaydnedwards.com/images/social.jpg"
 pagination:

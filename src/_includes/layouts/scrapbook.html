@@ -3,7 +3,7 @@
 {% block content %}
 <div class="page__wrapper">
     <article class="scrapbook">
-        <h1>{{ title }}</h1>
+        <h1 class="headline display">{{ title }}</h1>
         {{ content | safe }}
         <div class="scrapbook-wrapper">
             {% image "./src/images/scrapbook/Norvrandt.svg", "A serif N with crystal creeping up one side.", "100%" %}

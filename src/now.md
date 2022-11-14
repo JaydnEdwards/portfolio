@@ -1,12 +1,13 @@
 ---
 title: Now
+heading: What am I up to at the moment?
+headingEmoji: 🔮
 metaDesc: This is a list of all the things I’ve got going on at the moment, from hobbies
   to work and everything in between.
 layout: layouts/now.html
 socialImage: https://jaydnedwards.com/images/social.jpg
 
 ---
-# What am I up to at the moment? <span class="\[ emoji \]" aria-hidden="true">🔮</span>
 
 This is a list of all the things I’ve got going on at the moment, from hobbies to work and everything in between.
 
