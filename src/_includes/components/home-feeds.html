@@ -1,0 +1,38 @@
+<section class="home-feeds section-wrapper">
+    <h2 class="display">Keep up to date with me!</h2>
+
+
+    <div class="portfolio">
+    {% for post in collections.portfolio %}
+        {% if loop.index0 < 2 %}
+            <figure>
+                <a href="{{ post.url }}"><img src="{{ post.data.featuredImage }}" alt=""/></a>
+
+                <figcaption>
+                    <p>Portfolio piece</p>
+                    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                </figcaption>
+                
+            </figure>
+        {% endif %}
+    {% endfor %}
+    </div>
+
+
+    <div class="blog">
+    {% for post in collections.blog %}
+        {% if loop.index0 < 3 %}
+            <figure>
+                <a href="{{ post.url }}"><img src="{{ post.data.featuredImage }}" alt=""/></a>
+
+                <figcaption>
+                    <p>Blog post</p>
+                    <h3><a href="{{ post.url }}">{{ post.data.title | truncate(60) }}</a></h3>
+                    <!--<p>{{ post.data.excerpt }}</p>-->
+                </figcaption>
+            </figure>
+        {% endif %}
+    {% endfor %}
+    </div>
+
+</section>

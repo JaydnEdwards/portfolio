@@ -1,0 +1,89 @@
+.nav {
+    background-color: rgba($color: #000000, $alpha: 0.75);
+    padding: 0.25rem 0;
+
+    ul {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-color: #FFFFFF #EA5438;
+        
+        width: 95vw;
+        margin: 0 auto;
+
+        &::-webkit-scrollbar {
+            height: 1rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: #EA5438;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #EA5438;
+            background-image: linear-gradient(#EA5438 0, #EA5438 0.25rem, #FFFFFF 0.25rem, #FFFFFF 0.75rem, #EA5438 0.75rem);
+        }
+
+        & > * {
+            flex: 0 0 auto;
+        }
+
+        & > img {
+            height: 100%;
+            flex-basis: auto;
+            width: auto;
+        }
+
+        & > * + * {
+            margin-left: 0.5em;
+        }
+
+        .overflowing {
+            padding-bottom: 0.5em;
+        }
+
+        &__list{
+            margin: 0;
+            padding: 10px;
+        }
+
+        li{
+            list-style: none;
+            margin: 0 0.2em;
+        
+            text-decoration: none;
+            padding: 0.25em;
+
+            a{
+                color: var(--colourtext);
+                text-decoration: none;
+                padding: 0.25em;
+
+                &:visited{
+                    color: var(--colourtext);
+                }
+
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-thickness: 5px;
+                    text-underline-offset: 3px;
+                    text-decoration-skip-ink: none;
+                    text-decoration-color: var(--secondary);
+                }
+
+                &[aria-current="page"],
+                &[data-state="active"]{
+                    text-decoration: underline;
+                    text-decoration-thickness: 5px;
+                    text-underline-offset: 3px;
+                    text-decoration-skip-ink: none;
+                    text-decoration-color: var(--primary);
+                }
+
+                &:focus{
+                    border-color: #ffffff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.home-feeds {
+
+    & * + * {
+        margin-bottom: 0.5rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        line-height: 1.2;
+        
+        a {
+            color: black;
+        }
+    }
+
+    img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    figcaption {
+        * {
+            text-align: start;
+            font-size: 0.8rem;
+        }
+
+        p {
+            font-weight: 200;
+        }
+    }
+    
+    .portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+
+    .blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1rem;
+    }
+}
