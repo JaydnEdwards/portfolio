@@ -1,0 +1,13 @@
+.now {
+    ul {
+        li {
+            padding-inline-start: 1.5rem;
+            margin-bottom: 1rem;
+
+            .bullet {
+                position: absolute;
+                margin-inline-start: -1.5rem;
+            }
+        }
+    }
+}
