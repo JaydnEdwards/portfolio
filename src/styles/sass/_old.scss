@@ -130,6 +130,17 @@ main{
     padding: 0 20px 2rem 20px;
 }
 
+.avatar{
+    display: block;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.avatar img{
+    width: 100%;
+    margin: 0 auto;
+}
+
 article p{
     max-width: 65ch;
 }
@@ -312,38 +323,6 @@ figcaption a{
     margin-bottom: 2rem;
 }
 
-.scrapbook{
-    max-width: 100%;
-    text-align: center;
-}
-
-.scrapbook h2{
-    max-width: 100%;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    margin-bottom: 0;
-}
-
-.scrapbook p{
-    text-align: center;
-    max-width: 65ch;
-    margin: 0 auto 2rem auto;
-}
-
-.scrapbook-wrapper{
-    display: flex;
-    column-gap: 2rem;
-    row-gap: 2rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.scrapbook-wrapper picture,
-.scrapbook-wrapper img{
-    max-width: 400px;
-    height: auto;
-}
-
 [data-portfolio-category="web"]{
     --dropshadow: var(--secondary);
 }
@@ -408,17 +387,6 @@ figcaption a{
 
     article h2, article p{
         max-width: 65ch;
-    }
-
-    .avatar{
-        display: block;
-        max-width: 250px;
-        border-radius: 50%;
-    }
-
-    .avatar img{
-        width: 100%;
-        margin: 0 auto;
     }
 
     .feeds img{
