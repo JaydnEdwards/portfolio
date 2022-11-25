@@ -130,6 +130,17 @@ main{
     padding: 0 20px 2rem 20px;
 }
 
+.avatar{
+    display: block;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.avatar img{
+    width: 100%;
+    margin: 0 auto;
+}
+
 article p{
     max-width: 65ch;
 }
@@ -376,17 +387,6 @@ figcaption a{
 
     article h2, article p{
         max-width: 65ch;
-    }
-
-    .avatar{
-        display: block;
-        max-width: 250px;
-        border-radius: 50%;
-    }
-
-    .avatar img{
-        width: 100%;
-        margin: 0 auto;
     }
 
     .feeds img{
