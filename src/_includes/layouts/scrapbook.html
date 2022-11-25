@@ -1,11 +1,14 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<div class="page__wrapper">
+<section class="section-wrapper">
     <article class="scrapbook">
-        <h1 class="headline display">{{ title }}</h1>
-        {{ content | safe }}
-        <div class="scrapbook-wrapper">
+        <section class="intro">
+            <h1 class="headline display">{{ title }}</h1>
+            {{ content | safe }}
+        </section>
+
+        <section class="gallery">
             {% image "./src/images/scrapbook/Norvrandt.svg", "A serif N with crystal creeping up one side.", "100%" %}
             {% image "./src/images/scrapbook/Forest.png", "A forest with a border. It fades to white at the top and has an inverted ball in the centre.", "100%" %}
             {% image "./src/images/scrapbook/JAQKCellars.tif", "A wine label for a drink called Midnight.", "100%" %}
@@ -18,7 +21,7 @@
             {% image "./src/images/scrapbook/MagnaLux.png", "A planet made from rock textures.", "100%" %}
             {% image "./src/images/scrapbook/Lancaster.png", "A planet made from rock textures.", "100%" %}
             {% image "./src/images/scrapbook/Eternity.png", "Large fiery wings come out from behind a blue clock. Fire and effects explode around it. It is captioned 'Delve into Eternity'.", "100%" %}
-        </div>
+        </section>
     </article>
-</div><!-- Wrapper -->
+</section><!-- Wrapper -->
 {% endblock %}
