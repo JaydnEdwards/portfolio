@@ -1,9 +1,9 @@
 .portfolio-feed {
-    --grid-size: 1fr 1fr 1fr;
+    --grid-size: 250px;
 }
 
 .blog-feed {
-    --grid-size: 1fr 1fr 1fr 1fr;
+    --grid-size: 175px;
 }
 
 .portfolio-feed,
@@ -15,7 +15,7 @@
 
     .feed-grid {
         display: grid;
-        grid-template-columns: var(--grid-size);
+        grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
         column-gap: 1rem;
         row-gap: 1rem;
         margin-bottom: 2rem;
