@@ -48,12 +48,12 @@ Pontefract Town Hall is a Grade II listed building comprising two adjoining and 
 As a way of promoting the rich history of the town hall and assembly rooms, and the area of which they are based, I was asked to create a leaflet. This was to be informational and dressed in the Pontefract Civic Society brand. The back page of the leaflet was provided to me, as was the rest of the content.
 
 <figure>
-<img srcset="/images/portfolio/PCS/town-hall-leaflet-outer.webp" src="/images/portfolio/PCS/town-hall-leaflet-outer.jpg" alt="" />
+<img srcset="/images/portfolio/PCS/town-hall-leaflet-outer.webp" src="/images/portfolio/PCS/town-hall-leaflet-outer.jpg" alt="The outside of the leaflet. The back cover is a poster advertising the society and what they do. The front cover is a simple white background with blue bars at the top and bottom for a title and footer. Attached to the footer is a large image of the inside of the town hall. This is bordered in blue." />
 <figcaption>The outside cover of the leaflet.</figcaption>
 </figure>
 
 <figure>
-<img srcset="/images/portfolio/PCS/town-hall-leaflet-inner.webp" src="/images/portfolio/PCS/town-hall-leaflet-inner.jpg" alt="" />
+<img srcset="/images/portfolio/PCS/town-hall-leaflet-inner.webp" src="/images/portfolio/PCS/town-hall-leaflet-inner.jpg" alt="The inside of the leaflet. A blue bar spans teh top and bottom of the leaflet as a header and footer. There are two large columns of information inbetween. Each piece of information is a bullet point about a particular date." />
 <figcaption>The inside of the leaflet, detailing history going back to the 14<sup>th</sup> century.</figcaption>
 </figure>
 
