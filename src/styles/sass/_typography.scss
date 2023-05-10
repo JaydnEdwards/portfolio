@@ -16,6 +16,11 @@ p {
     font-weight: 400;
 }
 
+sup,
+sub {
+    font-size: 0.75em;
+}
+
 .display{
     color: var(--primary);
     background: linear-gradient(250deg, var(--primary) 0%, var(--secondary) 50%, var(--tertiary) 100%);
